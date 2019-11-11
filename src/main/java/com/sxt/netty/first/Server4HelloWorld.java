@@ -41,6 +41,7 @@ public class Server4HelloWorld {
              * 关闭连接的，释放连接
              */
             future.channel().closeFuture().sync();
+            System.out.println("service close");
         } catch (InterruptedException e) {
             e.printStackTrace();
         } finally {

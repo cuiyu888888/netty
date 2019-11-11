@@ -1,9 +1,3 @@
-/**
- * 1. 单线程组
- * 2. Bootstrap配置启动信息
- * 3. 注册业务处理Handler
- * 4. connect连接服务，并发起请求
- */
 package com.sxt.netty.first;
 
 import io.netty.bootstrap.Bootstrap;

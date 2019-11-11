@@ -1,6 +1,5 @@
 package com.sxt.utils;
 
-
 import java.net.InetAddress;
 import java.net.UnknownHostException;
 import java.util.Map;
@@ -20,7 +19,9 @@ import org.hyperic.sigar.SigarException;
 import org.hyperic.sigar.Swap;
 import org.hyperic.sigar.Who;
 
-
+/**
+ * 获取操作系统信息的工具类
+ */
 public class OSUtils {
 
 
